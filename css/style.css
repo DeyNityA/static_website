@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.header {
+    height: 95vh;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(../img/header-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+/* ###########utility classes ############# */
+.container{
+    /* border: 2px solid olivedrab; */
+    max-width: 1100px;
+    width :90%;
+    margin: 0px auto;
+    overflow: auto;
+}
+.light-white{
+    color: #f4f4f4;
+}
+.light-red{
+    color: #cf414d;
+}
+.light-grey{
+    color: #555;
+}
+.b-f-s{
+    font-size: 3.5rem;
+}
+.m-f-s{
+    font-size: 2rem ;
+}
+.s-f-s{
+    font-size: 1.6rem;
+}
+.btn{
+    display: inline-block;
+    padding: 0.5em 1.4em ;
+    font-weight: 500;
+    margin: 0.5em;
+    border-radius: 10em;
+}
+
+
+
+
+
+
+
+
+/* ##########HEADER########### */
+.navbar {
+    padding: 1rem;
+    width: 100vw;
+    /* border: 2px solid red; */
+}
+
+.navbar  h1{
+    /* border : 2px solid green; */
+    letter-spacing: 0.15em;
+    font-weight: 500;
+    float: left;
+}
+
+
+.navbar  ul{
+    margin-top: 1rem;
+    /* border: 2px solid yellow; */
+    float: right;
+
+}
+.navbar  ul li{
+    list-style: none;
+    /* border: 2px solid green; */
+     display: inline-block;
+}
+.navbar ul li a{
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    padding: 0em 1em;
+ 
+}
+.navbar  ul li a:hover{
+       text-decoration: underline;
+}
+
+.header .header-content {
+    /* border: 2px solid #ccc; */
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2));    
+}
+.header .header-content h1{
+    /* border: 2px solid green; */
+    letter-spacing: 0.15em;
+    margin-bottom: 0.8em;
+    
+}
+.header .header-content p{
+    letter-spacing: 0.15em;
+    margin-bottom: 0.6em;
+    
+}
+.header .header-content a{
+    text-decoration: none;
+    background-color: #f4f4f4;
+    
+}
+.header .header-content a:hover{
+    background-color: #e5e1e1;
+}
+
+.scroll{
+    height: 1900px;
+}
+
+/* ########SECTION########## */
+section.next2header{
+    /* border: 2px solid red; */
+    background-color: #ddd;
+    overflow: auto;
+   
+}
+section.next2header .row{
+    /* border: 2px solid green; */
+    height: 350px;
+    margin: 10rem auto;
+    box-shadow: 0px 0px 20px 0px #aaa;
+   
+}
+
+section.next2header .row img{
+    float: left ;
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+   
+}
+section.next2header .row article{
+    float: left ;
+    width: 50%;
+    padding: 2rem;
+    background-color: white;
+    height: 100%;
+    /* border: 2px solid black; */
+}
+section.next2header .row article h1{
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.6em;
+    text-transform: uppercase;
+}
+section.next2header .row article p{
+    letter-spacing: 0.15em;
+    line-height: 1.5em;
+    margin-bottom: 0.6em;
+
+}
+section.next2header .row article a{
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 2px solid #cf414d;
+}
+
+section.next2header .row article a:hover{
+    background-color: #e5e1e1;
+}
+/* #######---######## */
+
+section.features .case{
+    /* border: 2px solid pink; */
+    height: 250px;
+    margin: 10rem auto;
+    box-shadow: 5px 5px 10px rgba(102,102,102,0.521);
+
+}
+section.features .case article{
+    
+    float: left;
+    width: 33.33% ;
+    text-align: center;
+    height: 100%;
+    letter-spacing: 0.15em;
+    padding: 1.5rem 2.5rem ;
+
+}
+section.features .case article h3{
+    
+    font-weight: 500;
+    margin-bottom: 0.6em;
+    margin-top: 0.4em;
+
+}
+
+section.features .case article p{
+    line-height: 1.5em;
+}
+section.features .case article.Adv,article.Experience{
+        background-color: #263238; 
+
+}
+section.features .case article.price{
+    background: linear-gradient(25deg,#d64c7f,#ee4758 50%);
+
+}
+
+/* ####footer#### */
+footer{
+    padding: 2rem;
+    background-color: #263238; 
+    text-align: center;
+}
+footer a{
+    display: inline-block;
+    padding: 0 2rem;
+}
+
+footer p{
+    letter-spacing: 0.15em;
+    padding :2rem;
+}
+
+/* ###########About Section########### */
+
+nav.about{
+    background-color: #263238;
+    margin-bottom: 2rem;
+    
+}
+section.information{
+    /* border: 2px solid cornflowerblue; */
+    padding: 2rem;
+}
+section.information h1{
+    letter-spacing: 0.15em;
+    font-weight: 500;
+}
+
+section.information div.blank{
+    height: 0.5rem;
+    background: linear-gradient(25deg,#d64c7f,#ee4758 50%);
+    margin-bottom: 1rem;
+}
+section.information p{
+    letter-spacing: 0.15em;
+    line-height: 1.5em;
+}
+
+
+section.list{
+    margin-bottom: 2rem;
+}
+section.list ul{
+   
+    /* border: 2px solid black; */
+    text-align: center;
+    float: left;
+    width: 50%;
+}
+section.list li{
+    list-style: none;
+    /* border: 2px solid orchid; */
+    padding: 0.8rem;
+    
+
+}
+section.list li::first-letter{
+    color: #cf414d;
+    font-weight: bold;
+}
+
+section.expense ul{
+    overflow: auto;
+    text-align: center;
+    margin: 1rem 0rem;
+}
+
+section.expense ul li{
+  list-style: none;
+  float: left;
+  width: 25%;
+}
+section.expense ul.service h1{
+    font-weight: 500;
+}
+
+section.advertise{
+    background: linear-gradient(25deg,#d64c7f,#ee4758 50%);
+    padding: 1rem ;
+    margin-top: 4rem;
+    overflow: auto;
+    box-shadow: 5px 5px 10px #00000057;
+}
+section.advertise>h1{
+    /* border: 2px solid blue; */
+    float: left;
+    width: 50%;
+    letter-spacing: 0.15em;
+    font-weight: 500;
+    position: relative;
+    top: 1rem;
+}
+section.advertise .link{
+    text-align: right;
+    /* border: 2px solid blue; */
+    float: left;
+    width: 50%;
+    
+}
+section.advertise .link a{
+    border: 0.3em solid #f4f4f4;
+    letter-spacing: 0.15em;
+    display: inline-block;
+    text-decoration: none;
+    padding: 1rem 3rem;
+   
+}
+section.advertise .link a h1{
+    font-weight: 500;
+}
+
+
+
+nav.last{
+    background-color: #263238;
+    
+}
+.end{
+    background-color: #ddd;
+    overflow: auto;
+    /* border: 2px solid black; */
+    padding: 7rem 0;
+    
+}
+
+.end section {
+    height: 700px;
+    background-color: white;
+    padding: 1rem;
+}
+
+.end section.inform{
+    /* border: 2px solid salmon; */
+    float: left;
+    width: 49%;
+    overflow: auto;
+}
+.end section.inform p{
+    letter-spacing: 0.15em;
+    margin-bottom: 2rem ;
+}
+.end section.inform img{
+    max-width: 90%;
+    min-height: 40rem;
+    object-fit: cover;
+    object-position:right ;
+}
+.end section.contact{
+    /* border: 2px solid salmon; */
+    float: right;
+    width: 49%;
+    overflow: auto;
+}
+
+.end .contact form input,label,textarea {
+    display: block;
+    width : 100%;
+}
+section.contact h1{
+    letter-spacing: 0.15em;
+    font-weight: 500;
+}
+section.contact div.blank{
+    height: 0.5rem;
+    background: linear-gradient(25deg,#d64c7f,#ee4758 50%);
+    margin-bottom: 1rem;
+}
+section.contact p{
+    letter-spacing: 0.15em;
+    line-height: 1.5em;
+    margin-bottom: 1em;
+}
+.end .contact form input {
+    margin-bottom: 1rem;;
+    height: 2.5rem;
+}
+.end .contact form button {
+    display: inline-block;
+    margin-top: 1.5rem;
+    color: #f4f4f4; 
+    background-color: #cf414d;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0.5em 2.5em;
+
+}
+
+
+
+
+
